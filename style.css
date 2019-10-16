@@ -19,6 +19,7 @@ nav {
     background-color: #4E4E4E;
     font-size: 18px;
     position: fixed;
+    z-index: 1;
     width: 100%;
 }
 
@@ -116,6 +117,9 @@ nav a {
     cursor: not-allowed;
 }
 
+
+/* Crew section */
+
 .our-crew {
     padding: 50px 0;
     background: #f1f1f1;
@@ -170,6 +174,9 @@ nav a {
     margin-bottom: 0;
 }
 
+
+/* The Offer section */
+
 .offer {
     padding: 50px 0;
     background-color: #405D78;
@@ -192,6 +199,11 @@ nav a {
     padding: 50px;
     margin: 0 auto;
     width: 60%;
+    transition-duration: 0, 5s;
+}
+
+.box-container:hover {
+    transform: scale(1.05);
 }
 
 .box-container>div:after {
