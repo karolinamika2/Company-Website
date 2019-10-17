@@ -1,0 +1,34 @@
+.landing-page-hero-text {
+    height: 30%;
+}
+
+.employee {
+    flex-direction: row;
+}
+
+.employee-pic {
+    margin-right: 50px;
+}
+
+.employee:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+
+.employee:nth-of-type(even) .employee-pic {
+    margin-right: 0;
+    margin-left: 50px;
+}
+
+.employee-text {
+    text-align: left;
+}
+
+.employee:nth-of-type(even) .employee-text {
+    text-align: right;
+}
+
+.box-container {
+    grid-template-columns: 32% 32% 32%;
+    grid-column-gap: 2%;
+    grid-row-gap: 3%;
+}
