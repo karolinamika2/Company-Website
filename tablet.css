@@ -1,5 +1,25 @@
+.nav-links {
+    display: block;
+}
+
+.nav-links a {
+    margin-left: 45px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:first-of-type {
+    margin-left: 0;
+}
+
+.nav-links-disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
+
 .landing-page-hero-text {
     height: 30%;
+    width: 60%;
 }
 
 .employee {
@@ -28,7 +48,34 @@
 }
 
 .box-container {
+    display: grid;
     grid-template-columns: 32% 32% 32%;
     grid-column-gap: 2%;
     grid-row-gap: 3%;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list {
+    padding: 10px 0;
+    margin: 0;
+}
+
+footer .container h4 {
+    margin: 0px;
+}
+
+.instagram-icon {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.fa-facebook-square {
+    margin-right: 40px;
+    cursor: pointer;
 }

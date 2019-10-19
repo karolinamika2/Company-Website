@@ -27,10 +27,6 @@ nav {
     width: 100%;
 }
 
-.nav-links {
-    display: none;
-}
-
 nav .container {
     display: flex;
     justify-content: space-between;
@@ -38,18 +34,18 @@ nav .container {
     height: 50px;
 }
 
+nav a {
+    text-decoration: none;
+}
+
 nav .container>a {
     font-weight: bold;
     color: white;
+    text-decoration: none;
 }
 
-.nav-links a:first-of-type {
-    margin-left: 0;
-}
-
-.nav-links-disabled {
-    opacity: .5;
-    cursor: not-allowed;
+.nav-links {
+    display: table-row;
 }
 
 
@@ -83,7 +79,7 @@ nav .container>a {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    height: 50%;
+    height: 40%;
     font-weight: bold;
 }
 
@@ -152,7 +148,6 @@ nav .container>a {
 /* The Offer section */
 
 .offer {
-    padding: 50px 0;
     background-color: #405D78;
 }
 
@@ -163,14 +158,9 @@ nav .container>a {
     grid-row-gap: 2%;
     align-items: center;
     justify-content: center;
-    padding: 50px;
     margin: 0 auto;
     width: 60%;
-    transition-duration: 0.5s;
-}
-
-.box-container:hover {
-    transform: scale(1.05);
+    padding-bottom: 50px;
 }
 
 .box-container>div:after {
@@ -199,6 +189,7 @@ nav .container>a {
 .offer h1 {
     font-size: 36px;
     color: #FFFFFF;
+    padding: 50px 0px;
     margin: 0px;
 }
 
@@ -224,20 +215,27 @@ footer {
     display: block;
     background-color: #4E4E4E;
     font-size: 18px;
-    height: 70px;
+    height: auto;
+    /* bylo 70px */
     width: 100%;
     color: #FFFFFF;
 }
 
 footer .container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
 
+footer .container h4 {
+    margin: 15px 0
+}
+
 .footer-list {
-    font-size: 28px;
+    font-size: 31px;
+    margin: 0 15px 15px 15px;
 }
 
 .instagram-icon {
@@ -246,8 +244,7 @@ footer .container {
     color: white;
 }
 
-.fa-facebook-square {
-    margin-right: 40px;
+.facebook-icon {
     cursor: pointer;
     color: white;
 }
