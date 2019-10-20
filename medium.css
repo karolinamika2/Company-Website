@@ -23,10 +23,7 @@ button {
     width: 60%;
 }
 
-.grid-item:hover {
+.content:hover {
     transform: scale(1.05);
-}
-
-.grid-item {
-    transition-duration: 0.5s;
+    transition: 0.5s all;
 }

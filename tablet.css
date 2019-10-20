@@ -1,5 +1,5 @@
 .nav-links {
-    display: block;
+    display: initial;
 }
 
 .nav-links a {
@@ -18,8 +18,12 @@
 }
 
 .landing-page-hero-text {
-    height: 30%;
+    height: 35%;
     width: 60%;
+}
+
+.nav-menu {
+    display: none;
 }
 
 .employee {
@@ -49,7 +53,7 @@
 
 .box-container {
     display: grid;
-    grid-template-columns: 32% 32% 32%;
+    grid-template-columns: 33% 33% 33%;
     grid-column-gap: 2%;
     grid-row-gap: 3%;
 }
