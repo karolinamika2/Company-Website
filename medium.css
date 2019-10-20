@@ -1,3 +1,7 @@
+.dropdown {
+    display: none;
+}
+
 .nav-links-disabled {
     cursor: not-allowed;
 }
