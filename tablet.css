@@ -17,6 +17,10 @@
     cursor: not-allowed;
 }
 
+.dropdown {
+    display: none;
+}
+
 .landing-page-hero-text {
     height: 35%;
     width: 60%;
@@ -32,6 +36,7 @@
 
 .employee-pic {
     margin-right: 50px;
+    margin-bottom: 0;
 }
 
 .employee:nth-of-type(even) {
